@@ -564,4 +564,5 @@ is_posting = False
 def post_comments(thread_id, hater_name, tokens, messages):
     global is_posting
     is_posting = True
+
     log_output.append(f"[⏱️] Started at {datetime.datetime.now().strftime(
